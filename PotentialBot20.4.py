@@ -1,5 +1,6 @@
 import discord
 from datetime import datetime
+import os
 
 client = discord.Client()
 
@@ -324,5 +325,6 @@ async def on_message(message):
         await message.channel.send("-8.5(140-170) 포텐, 적응력 7, 포부 16, 논쟁성 6, 의리 12, 압박감 대처 13, 프로의식 18\n"
                                    "스포츠맨십 12, 참을성 8, 더티 플레이 4, 꾸준함 3, 중요경기 12, 부상빈도 4")
 
-client.run("Njk5NTYwNjQyMjg1NDA0MjAy.XpWKuQ.lqJUR1w9b4HUQ6il18k21uXetPQ")
-# 699497966934818917
+access_token = ["BOT_TOKEN"]
+client.run("BOT_TOKEN")
+
